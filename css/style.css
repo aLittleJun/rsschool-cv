@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background: #2e2e2c;
+  color: rgb(228, 169, 169);
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: rgb(175, 160, 160);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: rgb(207, 110, 110);
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.bg-yellow {
+  background: #3d3c34;
+}
+
+span {
+  text-decoration: line-through;
+}
+
+.bg-green {
+  background: #3d3c34;
+}
+
+
+.card {
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(180, 137, 137);
+  padding: 50px 0px;
+  color: #fff;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.git-image {
+  width: 20px;
+  height: 100px;
+}
+
+.date {
+  font-size: 40px;
+}
+
+.footer,
+.git-image a {
+  color: #fff
+}
+
+.footer
+.rs-image a {
+  color: #fff;
+}
+
+
